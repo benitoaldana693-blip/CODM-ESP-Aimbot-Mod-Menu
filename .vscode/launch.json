@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "BrightScript Debug: Launch",
+            "type": "brightscript",
+            "request": "launch",
+            "host": "${promptForHost}",
+            "password": "${promptForPassword}",
+            "rootDir": "${workspaceFolder}"
+        },
+
+        {
+            "type": "objectscript",
+            "request": "launch",
+            "name": "ObjectScript Run current routine",
+            "program": "${file}"
+        },
+        {
+            "name": "BrightScript Debug: Launch",
+            "type": "brightscript",
+            "request": "launch",
+            "host": "${promptForHost}",
+            "password": "${promptForPassword}",
+            "rootDir": "${workspaceFolder}"
+        },
+
+
+
+
+
+        {
+            "name": "BrightScript Debug: Launch",
+            "type": "brightscript",
+            "request": "launch",
+            "host": "${promptForHost}",
+            "password": "${promptForPassword}",
+            "rootDir": "${workspaceFolder}"
+        }
+    ]
+}
